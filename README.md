@@ -1,3 +1,14 @@
+# Note
+
+- To make it easier for me, I used Antd and tailwindcss to speed up UI development
+- I joined this test with the spirit of being a maintainer, so I decided not to change too much code structure and BE (but I change a bit)
+- I've not applyed test to the project before, so research and integrate test take a little bit time
+- This demo was finished in 6 hours (7/5 - 8/5)
+- I really enjoyed this test btw
+- Instructions how to run the app locally are available below
+
+# =======================
+
 # Coding assignment
 
 The goal of this assignment is to showcase your ability to develop features and your coding style. Due to the time

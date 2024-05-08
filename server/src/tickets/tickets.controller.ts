@@ -32,7 +32,9 @@ export class TicketsController {
   }
 
   @Post()
-  async createTicket(@Body() createDto: { description: string }) {
+  async createTicket(
+    @Body() createDto: { description: string; assigneeId: number }
+  ) {
     await randomDelay();
     return this.ticketsService.newTicket(createDto);
   }
